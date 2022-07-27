@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>penguin fashion</title>
+    <script
+      src="https://kit.fontawesome.com/e5e1d3242e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar section -->
+    <div class="bg-amber-50 pb-20">
+      <nav class="container flex justify-between py-8 mx-auto">
+        <div>
+          <a
+            href="https://web.programming-hero.com/web-6/video/web-6-14-8-setup-custom-card-and-card-grid-using-tailwind-css"
+            ><img class="w-80" src="./images/logo.png" alt=""
+          /></a>
+        </div>
+        <div class="hidden space-x-8 lg:flex">
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Our Works</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="flex lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-6 h-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </div>
+      </nav>
+
+      <!-- banner section -->
+      <div
+        class="header container mx-auto grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 lg:justify-items-start md:justify-items-center sm:justify-items-center items-center space-x-32 space-y-10"
+      >
+        <div class="w-3/4">
+          <h1 class="text-5xl uppercase font-bold my-8">
+            <span class="text-yellow-400">Be the Penguin</span>
+            <br />
+            <span>Of Winter</span>
+          </h1>
+          <p class="mb-10">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint totam
+            eveniet necessitatibus unde sunt et sit aperiam deserunt officia
+            non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+            aperiam suscipit, officiis fugiat officia eius neque consequuntur
+            soluta fuga perspiciatis?
+          </p>
+          <button class="uppercase bg-lime-500 py-4 px-8 rounded-lg">
+            <i class="fa-solid fa-cart-shopping pr-2"></i>
+            Buy Now
+          </button>
+        </div>
+        <div class="">
+          <img src="./images/model.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- woment jacket section -->
+
+    <section class="women-jacket mb-20 flex justify-center">
+      <div class="container">
+        <h1 class="text-5xl font-bold my-14">Women's Jacket</h1>
+        <div
+          class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 justify-items-center"
+        >
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              class="bg-slate-200 p-5 rounded-xl"
+              src="./images/jacket-1.png"
+              alt=""
+            />
+            <h1 class="text-3xl font-bold my-5">Yellow Coat Jacket</h1>
+            <p class="text-1xl font-normal my-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              fugit totam harum tempora magnam enim facere sequi labore quod
+              vero.
+            </p>
+            <div class="flex items-center">
+              <p class="text-3xl font-bold my-5 mr-5">$234</p>
+              <button class="uppercase bg-lime-500 rounded-lg h-12 w-44">
+                <i class="fa-solid fa-cart-shopping pr-2"></i>
+                Buy Now
+              </button>
+            </div>
+          </div>
+
+          <div class="shadow-md p-5 rounded-xl">
+            <img
+              class="bg-slate-200 p-5 rounded-xl"
+              src="./images/jacket-2.png"
+              alt=""
+            />
+            <h1 class="text-3xl font-bold my-5">Ladies Jacket</h1>
+            <p class="text-1xl font-normal my-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              fugit totam harum tempora magnam enim facere sequi labore quod
+              vero.
+            </p>
+            <div class="flex items-center">
+              <p class="text-3xl font-bold my-5 mr-5">$195</p>
+              <button class="uppercase bg-lime-500 rounded-lg h-12 w-44">
+                <i class="fa-solid fa-cart-shopping pr-2"></i>
+                Buy Now
+              </button>
+            </div>
+          </div>
+
+          <div class="shadow-md p-5 rounded-xl">
+            <img
+              class="bg-slate-200 p-5 rounded-xl"
+              src="./images/jacket-3.png"
+              alt=""
+            />
+            <h1 class="text-3xl font-bold my-5">Women Leather Jacket</h1>
+            <p class="text-1xl font-normal my-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              fugit totam harum tempora magnam enim facere sequi labore quod
+              vero.
+            </p>
+            <div class="flex items-center">
+              <p class="text-3xl font-bold my-5 mr-5">$528</p>
+              <button class="uppercase bg-lime-500 rounded-lg h-12 w-44">
+                <i class="fa-solid fa-cart-shopping pr-2"></i>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Man jacket section -->
+
+    <section class="women-jacket mb-20 flex justify-center">
+      <div class="container">
+        <h1 class="text-5xl font-bold my-14">Men's Jacket</h1>
+        <div
+          class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 justify-items-center"
+        >
+          <div class="shadow-lg p-5 rounded-xl">
+            <img
+              class="bg-slate-200 p-5 rounded-xl"
+              src="./images/jacket-4.png"
+              alt=""
+            />
+            <h1 class="text-3xl font-bold my-5">Snowboard Jacket Men's</h1>
+            <p class="text-1xl font-normal my-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              fugit totam harum tempora magnam enim facere sequi labore quod
+              vero.
+            </p>
+            <div class="flex items-center">
+              <p class="text-3xl font-bold my-5 mr-5">$234</p>
+              <button class="uppercase bg-lime-500 rounded-lg h-12 w-44">
+                <i class="fa-solid fa-cart-shopping pr-2"></i>
+                Buy Now
+              </button>
+            </div>
+          </div>
+
+          <div class="shadow-md p-5 rounded-xl">
+            <img
+              class="bg-slate-200 p-5 rounded-xl"
+              src="./images/jacket-5.png"
+              alt=""
+            />
+            <h1 class="text-3xl font-bold my-5">Men Leather jacket</h1>
+            <p class="text-1xl font-normal my-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              fugit totam harum tempora magnam enim facere sequi labore quod
+              vero.
+            </p>
+            <div class="flex items-center">
+              <p class="text-3xl font-bold my-5 mr-5">$195</p>
+              <button class="uppercase bg-lime-500 rounded-lg h-12 w-44">
+                <i class="fa-solid fa-cart-shopping pr-2"></i>
+                Buy Now
+              </button>
+            </div>
+          </div>
+
+          <div class="shadow-md p-5 rounded-xl">
+            <img
+              class="bg-slate-200 p-5 rounded-xl"
+              src="./images/jacket-6.png"
+              alt=""
+            />
+            <h1 class="text-3xl font-bold my-5">Man Casual Jacket</h1>
+            <p class="text-1xl font-normal my-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              fugit totam harum tempora magnam enim facere sequi labore quod
+              vero.
+            </p>
+            <div class="flex items-center">
+              <p class="text-3xl font-bold my-5 mr-5">$528</p>
+              <button class="uppercase bg-lime-500 rounded-lg h-12 w-44">
+                <i class="fa-solid fa-cart-shopping pr-2"></i>
+                Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer flex justify-center my-40">
+      <div
+        class="container grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1 gap-x-40"
+      >
+        <div class="contact">
+          <div class="flex items-center shadow-lg p-5 my-5 rounded-lg">
+            <div class="icon mr-5">
+              <img class="w-36" src="./icons/image 12.png" alt="" />
+            </div>
+            <div class="text">
+              <h1 class="text-2xl font-bold pb-3">Find The Perfect Fit</h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Doloremque aperiam delectus atque voluptatibus minus
+                necessitatibus.
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center shadow-lg p-5 my-5 rounded-lg">
+            <div class="icon mr-5">
+              <img class="w-36" src="./icons/image 13.png" alt="" />
+            </div>
+            <div class="text">
+              <h1 class="text-2xl font-bold pb-3">Free Exchange</h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Doloremque aperiam delectus atque voluptatibus minus
+                necessitatibus.
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center shadow-lg p-5 my-5 rounded-lg">
+            <div class="icon mr-5">
+              <img class="w-36" src="./icons/image 14.png" alt="" />
+            </div>
+            <div class="text">
+              <h1 class="text-2xl font-bold pb-3">Contact The Seller</h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Doloremque aperiam delectus atque voluptatibus minus
+                necessitatibus.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="pic">
+          <img src="./images/shopping.png" alt="" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
